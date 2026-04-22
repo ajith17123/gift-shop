@@ -1,0 +1,46 @@
+.nav-sec {
+    background-color: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 10px 0;
+    top: 0; 
+}
+.nav-link {
+    color: #cccccc;
+    font-size: 0.95rem;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.nav-link:hover {
+    color: #00d2ff;
+    transform: translateY(-2px); 
+}
+.navbar-brand {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+.navbar-brand:hover {
+    color: #00d2ff;
+}
+.navbar-brand i {
+    margin-right: 10px;
+    color: #00d2ff;
+}
+.bi-cart4, .bi-person {
+    font-size: 1.2rem;
+}
+.navbar-toggler {
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+.navbar-brand.active, .navbar-brand:focus {
+    color: #ffffff;
+}
+.nav-link.active, .nav-link:focus {
+    color: #00d2ff !important; 
+    font-weight: 700;
+    border-bottom: 2px solid #00d2ff;
+}
+

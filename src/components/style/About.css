@@ -1,0 +1,113 @@
+.about-sec, .cont-sec, .video-sec {
+    background-color: #000000;
+    color: #ffffff;
+    overflow: hidden;
+}
+.about-head {
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about-sec .row {
+    display: flex;
+    align-items: center;
+}
+.about-img-card {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.about-img-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.about-card-text {
+    background: #111 !important;
+    border: 1px solid #222 !important;
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px !important;
+    min-height: 100%;
+}
+.about-para {
+    color: #bbb;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin: 0;
+}
+.cont-sec {
+    background-color: #080808;
+    border-top: 1px solid #1a1a1a;
+}
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.contact-form-box .form-control {
+    background-color: #151515;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.contact-form-box .form-control::placeholder {
+    color: #00d2ff;
+}
+.send-btn {
+    background-color: #00d2ff;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 5px;
+    width: 100%;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.send-btn:hover {
+    background-color: #fff;
+    transform: translateY(-3px);
+}
+.map-card {
+    height: 100%;
+    min-height: 350px;
+    border-radius: 15px !important;
+    overflow: hidden;
+    border: 1px solid #333 !important;
+}
+.video-box {
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #222;
+    background: #000;
+    width: 100%;
+    position: relative;
+}
+.video-box iframe {
+    width: 100% !important;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: none;
+}
+
+/* {mediaquery} */
+
+@media (max-width: 768px) {
+    .about-head {
+        font-size: 2rem;
+    }
+    .about-card-text {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,94 @@
+.login-sec {
+    background-color: #000;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.section-title {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.auth-container {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #222;
+}    
+.auth-card {
+    padding: 50px 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.login-side {
+    background: #0d0d0d;
+}
+.signup-side {
+    background: #111;
+}
+.icon-box {
+    font-size: 2.5rem;
+    color: #00d2ff;
+    margin-bottom: 20px;
+}
+.auth-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.auth-subtitle {
+    color: #888;
+    margin-bottom: 30px;
+}
+.auth-input {
+    background: #000 !important;
+    border: 1px solid #333 !important;
+    color: #fff !important;
+    padding: 12px 15px !important;
+    border-radius: 8px !important;
+}
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.4s;
+}
+.btn-login {
+    background: #00d2ff;
+    color: #000;
+}
+.btn-signup {
+    background: transparent;
+    border: 2px solid #00d2ff;
+    color: #00d2ff;
+}
+.auth-btn:hover {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+    transform: translateY(-3px);
+}
+.auth-switch, .auth-switch a {
+    color: #666;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.auth-switch a {
+    color: #00d2ff;
+}
+.back-home {
+    color: #888;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.back-home:hover {
+    color: #00d2ff;
+}
